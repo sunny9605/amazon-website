@@ -287,41 +287,143 @@ height: 70px;
     padding-bottom: 5px;
 }
 
-@media screen and (max-width:425px) {
 
+@media screen  and (max-width: 426px) {
     .hero-section{
-        background-image: url(./imgs/hero\ img\ am.jpg);
-        height: 220px;
-        width: 420px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content:center;
-        align-items: center;
-    } 
+        height: 200px;
 
+    }
+    
     .hero-msg{
-        height: 30px;
+        height: 45px;
         background-color: white;
        width: 90%;
        margin-top: 180px;
-      font-size: 12px;
-       text-align: center;
+      font-size: 0.9rem;
+    
     }
 
+    .logo{
+        font-size: 0.3px;
+    }
 
+    .addlocation{
+        color: white;
+        margin-left: 1.5px;
+    }
+    
+    .firstline{
+    font-weight: 100;
+        margin-left: 22px;
+        font-size: 0.1rem;
+    }
+    .locationicon{
+        display: flex;
+        margin-left: 10px;
+        font-size: 0.5rem;
+    }
+    
+    .sign-in{
+        color: white;
+        
+    }
+    span{
+        font-size: 0.4rem;
+    }
+    
+    .nav-font{
+        font-size: 0.4rem;
+        font-weight: 700;
+    }
+    
+    .orders{
+        color: white;
+    }
+    
+    .cart{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cart i{
+        font-size: 10px;
+    }
+    
+    .cart p{
+        font-weight: 700;
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+
+    .sec-bar{
+        height: 40px;
+        margin-top: 60px;
+        background-color: #222f3d;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .sec-bar p {
+        display: inline;
+        margin-left: 12px;
+    }
     .all-opt{
         width: 70%;
-        font-size: 0.9rem;
+        font-size: 0.3rem;
       
     }
     
     .Deals{
+        font-size: 0.5rem;
+        font-weight: 700;
+    }
+
+    .navbar{
+
+        height: 60px;
+
+    }
+
+    .navbar p{
+        font-size: 0.6rem;
+
+    }
+
+    .nav-input{
+        height: 38px;
+        border: none;
+        width: 100%;
+        font-size: 0.5rem;
+    }
+    
+    .search-icon{
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 1rem;
+        background-color: #febd68;
+        border-top-right-radius: 3px ;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+        
+    }
+
+    .sign-in{
+        color: white;
+        
+    }
+    span{
+        font-size: 0.4rem;
+    }
+    
+    .nav-font{
+        font-size: 5px;
         font-weight: 700;
     }
     
 }
-
-
 
