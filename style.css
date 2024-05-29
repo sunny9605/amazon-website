@@ -354,7 +354,7 @@ height: 70px;
     .cart p{
         font-weight: 700;
         margin-top: 10px;
-        font-size: 0.8rem;
+        font-size: 0.4rem;
     }
 
     .sec-bar{
@@ -388,7 +388,7 @@ height: 70px;
     }
 
     .navbar p{
-        font-size: 0.6rem;
+        font-size: 0.5rem !important;
 
     }
 
@@ -396,7 +396,7 @@ height: 70px;
         height: 38px;
         border: none;
         width: 100%;
-        font-size: 0.5rem;
+        font-size: 0.3rem;
     }
     
     .search-icon{
@@ -406,14 +406,15 @@ height: 70px;
         align-items: center;
         font-size: 1rem;
         background-color: #febd68;
-        border-top-right-radius: 3px ;
-    border-bottom-right-radius: 3px;
+        border-top-right-radius: 0px ;
+    border-bottom-right-radius: 0px;
     color: #0f1111;
         
     }
 
     .sign-in{
         color: white;
+        font-size: 3px;
         
     }
     span{
@@ -421,7 +422,7 @@ height: 70px;
     }
     
     .nav-font{
-        font-size: 5px;
+        font-size: 6px !important;
         font-weight: 700;
     }
     
